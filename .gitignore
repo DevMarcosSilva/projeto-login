@@ -1,7 +1,5 @@
-# Backend
-backend/node_modules
-backend/.env
+node_modules
+.turbo
 
-# Frontend
-frontend/node_modules
+backend/.env
 frontend/.env
