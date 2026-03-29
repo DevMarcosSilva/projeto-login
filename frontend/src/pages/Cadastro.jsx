@@ -13,7 +13,7 @@ export default function Cadastro(){
         e.preventDefault()
         try{
             console.log('passei auqi')
-            const resposta = await axios.post('http://localhost:5001/api/auth/cadastro',{
+            const resposta = await axios.post(`${import.meta.env.VITE_API_URL}/api/auth/cadastro`,{
                 nome,
                 email,
                 senha
