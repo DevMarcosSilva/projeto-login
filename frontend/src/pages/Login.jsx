@@ -30,7 +30,7 @@ export default function Login(){
         <div className="login-card">
             <div className="login-header">
                 <div className="login-icon">🔐</div>
-                <h2>Bem-vindo!</h2>
+                <h2>Compras auto</h2>
                 <p>Faça login para continuar</p>
             </div>
             <form className="login-form" onSubmit={handleLogin}>
